@@ -1,0 +1,13 @@
+[devshell]
+name = "Quran Gallery App - Data Store"
+
+packages = ["nixpkgs-fmt", "rnix-lsp", "statix", "treefmt", "nodejs_20"]
+
+[[env]]
+name = "PATH"
+prefix = "$PWD/node_modules/.bin"
+
+[[commands]]
+name = "frontend"
+help = "start dev server"
+command = "npm run dev"
